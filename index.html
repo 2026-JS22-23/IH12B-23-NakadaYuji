@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localWeb</title>
+    <style>
+        body {
+            background-color: #b6fab0;
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .spotBox {
+            background: #75ff68;
+            border: 1px solid #035400;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 0 250px 35px 250px;
+            text-align: center;
+        }
+
+        .spotBox h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .spotBox img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        div#localMap{
+            margin-bottom: 100px;
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="beginning">
+        <h1>小牧市の観光地＜紹介編＞</h1>
+        <p>こちらのウェブページでは、小牧市内の観光スポットを紹介するウェブサイトです。</p>
+    </div>
+
+    <div id="localMap">
+        <iframe src="./localMap.html" width="1000" height="600" title="Komaki Local Map"></iframe>
+        <p>全画面をご覧になられたい場合は<a href="./localMap.html" target="_blank">こちらのリンク</a>からアクセス</p>
+    </div>
+
+    <div id="introduction">
+        <div id="Menado" class="spotBox">
+            <h2>メナード美術館</h2>
+            <img src="./img/menado.jpg" alt="メナード美術館">
+            <p>小牧市にある本格的な美術館。国内外の優れた絵画や彫刻、工芸品など多彩なコレクションを所蔵しており、落ち着いた空間でじっくりと美術鑑賞を楽しむことができます。<br>
+                詳細の内容が気になる方はこちらの<a href="https://museum.menard.co.jp/" target="_blank">メナード公式サイト</a>からご覧になれます。
+            </p>
+        </div>
+
+        <div id="Komaki" class="spotBox">
+            <h2>小牧城</h2>
+            <img src="./img/castle.jpg" alt="小牧城">
+            <p>織田信長が最初に築いた城として知られる小牧山に建つ城。現在は歴史資料館として公開されており、天守閣からは濃尾平野を一望できる絶景スポットとなっています。<br>
+                気になる方は<a href="https://www.komakiyama.com/rekishikan/" target="_blank">公式サイト</a>からご覧になれます。
+            </p>
+        </div>
+
+        <div id="takada" class="spotBox">
+            <h2>田縣神社</h2>
+            <img src="./img/shrine.jpg" alt="田縣神社">
+            <p>天下の奇祭「豊年祭」で世界的に有名な由緒ある神社。五穀豊穣や子孫繁栄、万物育成の信仰を集めており、国内だけでなく海外からも多くの観光客が訪れます。<br>
+                詳細の内容が気になる方はこちらの<a href="http://www.tagatajinja.com/" target="_blank">田縣神社の公式サイト</a>からご覧になれます。
+            </p>
+        </div>
+
+        <div id="Shiki" class="spotBox">
+            <h2>市民四季の森</h2>
+            <img src="./img/forest.jpg" alt="市民四季の森 ">
+            <p>豊かな自然に囲まれた広大な総合公園。四季折々の花々が楽しめるほか、動物ふれあい広場やちびっこ動物園、ソリ遊びができる芝生などがあり、ファミリーに大人気です。<br>
+                詳細の気になる方はこちらの<a href="https://www.city.komaki.aichi.jp/admin/soshiki/toshiseisakubu/kouen/1/8/1/1/3084.html" target="_blank">小牧市の公式サイト</a>からご覧になれます。
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
